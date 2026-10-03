@@ -183,7 +183,7 @@ body {
             rgba(255, 255, 255, 0.90) 40%,
             rgba(255, 255, 255, 0.15) 100%
         ),
-        url("images/centre.jpg");
+        url("images/main building.jpg");
 
     background-size: cover;
     background-position: center;
@@ -336,6 +336,361 @@ body {
 
 .info-item p {
     color: #dcecff;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+}
+/* =========================
+   QUICK INFORMATION
+========================= */
+
+.quick-info {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+
+    padding: 35px 6%;
+
+    background-color: #f5f8fb;
+}
+
+
+.quick-card {
+    background-color: white;
+
+    padding: 25px 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+
+    transition: 0.3s;
+}
+
+
+.quick-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
+}
+
+
+.quick-icon {
+    width: 50px;
+    height: 50px;
+
+    background-color: #e8f5f0;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 23px;
+
+    flex-shrink: 0;
+}
+
+
+.quick-card h3 {
+    color: #063b70;
+
+    font-size: 16px;
+
+    margin-bottom: 5px;
+}
+
+
+.quick-card p {
+    color: #666;
+
+    font-size: 12px;
+
+    line-height: 1.4;
+}
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about-section {
+    padding: 80px 6%;
+
+    background-color: white;
+}
+
+
+.about-container {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 60px;
+
+    align-items: center;
+}
+
+
+/* ABOUT IMAGE */
+
+.about-image {
+    position: relative;
+}
+
+
+.about-image img {
+    width: 100%;
+
+    height: 420px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    display: block;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ABOUT CONTENT */
+
+.section-label {
+    color: #087f5b;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+
+.about-content h2 {
+    color: #063b70;
+
+    font-size: 38px;
+
+    line-height: 1.2;
+
+    margin: 12px 0 20px;
+}
+
+
+.about-content > p {
+    color: #555;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   ABOUT STATS
+========================= */
+
+.about-stats {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 10px;
+
+    margin: 25px 0;
+}
+
+
+.stat-box {
+    padding: 15px 10px;
+
+    background-color: #f5f8fb;
+
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+
+.stat-box h3 {
+    color: #087f5b;
+
+    font-size: 25px;
+
+    margin-bottom: 5px;
+}
+
+
+.stat-box p {
+    color: #555;
+
+    font-size: 11px;
+}
+
+
+/* ABOUT BUTTON */
+
+.about-btn {
+    display: inline-block;
+
+    padding: 12px 22px;
+
+    background-color: #063b70;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.about-btn:hover {
+    background-color: #087f5b;
+}
+/* =========================
+   FACILITIES SECTION
+========================= */
+
+.facilities-section {
+    padding: 80px 6%;
+
+    background-color: #f5f8fb;
+}
+
+
+/* SECTION HEADING */
+
+.section-heading {
+    max-width: 700px;
+
+    margin: 0 auto 45px;
+
+    text-align: center;
+}
+
+.section-heading span {
+    color: #087f5b;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+.section-heading h2 {
+    color: #063b70;
+
+    font-size: 38px;
+
+    margin: 10px 0 15px;
+}
+
+.section-heading p {
+    color: #666;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+}
+
+
+/* FACILITIES GRID */
+
+.facilities-grid {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+
+/* FACILITY CARD */
+
+.facility-card {
+    background-color: white;
+
+    padding: 25px 20px;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+
+    transition: 0.3s;
+
+    border-bottom: 3px solid transparent;
+}
+
+
+.facility-card:hover {
+    transform: translateY(-7px);
+
+    border-bottom-color: #087f5b;
+
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.10);
+}
+
+
+/* FACILITY ICON */
+
+.facility-icon {
+    width: 60px;
+    height: 60px;
+
+    margin: 0 auto 15px;
+
+    background-color: #e8f5f0;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 27px;
+}
+
+
+.facility-card h3 {
+    color: #063b70;
+
+    font-size: 17px;
+
+    margin-bottom: 10px;
+}
+
+
+.facility-card p {
+    color: #666;
 
     font-size: 13px;
 
