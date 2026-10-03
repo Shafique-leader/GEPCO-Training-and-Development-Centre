@@ -33,12 +33,33 @@ body {
 .top-left {
     display: flex;
     gap: 25px;
+}.top-left span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+.top-right span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
 
 .top-right {
-    text-align: right;
+    display: flex;
+    align-items: center;
 }
-
+.gepco-logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+.gepco-logo-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 /* =========================
    NAVBAR
