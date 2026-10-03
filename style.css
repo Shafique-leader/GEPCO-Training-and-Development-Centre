@@ -162,3 +162,182 @@ body {
 
     cursor: pointer;
 }
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    min-height: 520px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    padding: 70px 6%;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.98) 0%,
+            rgba(255, 255, 255, 0.90) 40%,
+            rgba(255, 255, 255, 0.15) 100%
+        ),
+        url("images/centre.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* HERO CONTENT */
+
+.hero-content {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+}
+
+
+/* HERO TEXT */
+
+.hero-text {
+    max-width: 650px;
+}
+
+.hero-small-title {
+    color: #087f5b;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    color: #063b70;
+
+    font-size: 52px;
+
+    line-height: 1.1;
+
+    margin: 15px 0;
+}
+
+.hero h1 span {
+    color: #087f5b;
+}
+
+.hero-text p {
+    color: #444;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+    max-width: 600px;
+
+    margin-bottom: 25px;
+}
+
+
+/* HERO BUTTONS */
+
+.hero-buttons {
+    display: flex;
+
+    gap: 15px;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+
+    padding: 13px 22px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background-color: #087f5b;
+
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #056044;
+}
+
+.btn-secondary {
+    border: 2px solid #063b70;
+
+    color: #063b70;
+
+    background-color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #063b70;
+
+    color: white;
+}
+
+
+/* =========================
+   HERO INFORMATION CARD
+========================= */
+
+.hero-info-card {
+    width: 330px;
+
+    background-color: rgba(3, 57, 108, 0.94);
+
+    color: white;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.info-item {
+    display: flex;
+
+    gap: 15px;
+
+    padding: 15px 0;
+}
+
+.info-item + .info-item {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.info-icon {
+    font-size: 25px;
+}
+
+.info-item h3 {
+    font-size: 16px;
+
+    margin-bottom: 5px;
+}
+
+.info-item p {
+    color: #dcecff;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+}
